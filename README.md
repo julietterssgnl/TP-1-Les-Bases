@@ -54,5 +54,5 @@ java -cp src exercice01.Main
 Adaptez `exercice01` selon l’exercice que vous voulez lancer.
 
 ## Auteur
-
+Juliette
 Projet de travaux pratiques — Java.
