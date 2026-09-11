@@ -31,7 +31,7 @@ public class CompteBancaire {
 
     public void retirer(double montant) {
         if (montant <= 0) {
-            throw new IllegalArgumentException("Le montant du retrait doit être strictement positif.");
+            throw new IllegalArgumentException("Le montant du retrait doit être strictly positif.");
         }
         if (montant > this.solde) {
             throw new IllegalArgumentException("Solde insuffisant pour un retrait de " + montant + " €.");
