@@ -2,7 +2,7 @@ package exercice10;
 
 public class Main {
     public static void main(String[] args) {
-        CompteBancaire compte = new CompteBancaire("Alice", 150.0);
+        CompteBancaire compte = new CompteBancaire("Dorine", 150.0);
 
         System.out.println("Solde au départ : " + compte.getSolde() + " €\n");
 

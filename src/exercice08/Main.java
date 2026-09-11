@@ -7,8 +7,8 @@ public class Main {
         LocalDate arriveeEt = LocalDate.of(2026, 7, 15);
         LocalDate departEt = LocalDate.of(2026, 7, 25);
 
-        Reservation r1 = new Reservation("Dupont", arriveeEt, departEt);
-        Reservation r2 = new Reservation("Martin", LocalDate.of(2026, 11, 1), LocalDate.of(2026, 11, 10));
+        Reservation r1 = new Reservation("Rossignol", arriveeEt, departEt);
+        Reservation r2 = new Reservation("Barbey", LocalDate.of(2026, 11, 1), LocalDate.of(2026, 11, 10));
 
         System.out.println("Client : " + r1.getNomClient());
         System.out.println("Date d'arrivée : " + r1.getDateArrivee());

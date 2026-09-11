@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Etudiant> liste = new ArrayList<>();
 
-        Etudiant e1 = new Etudiant("E123", "Alice", 15.5);
-        Etudiant e2 = new Etudiant("E123", "Alice V2", 18.0); // Même numéro d'étudiant[cite: 1]
-        Etudiant e3 = new Etudiant("E456", "Bob", 12.0);
+        Etudiant e1 = new Etudiant("E123", "Juliette", 15.5);
+        Etudiant e2 = new Etudiant("E123", "juju", 18.0); // Même numéro d'étudiant[cite: 1]
+        Etudiant e3 = new Etudiant("E456", "Dorine", 12.0);
 
         liste.add(e1);
 
