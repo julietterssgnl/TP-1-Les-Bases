@@ -2,7 +2,7 @@ package exercice02;
 
 public class Main {
     public static void main(String[] args) {
-        CompteBancaire compte = new CompteBancaire("Alice", 500);
+        CompteBancaire compte = new CompteBancaire("Dorine", 500);
 
         // Utilisation de getTitulaire() et getSolde()
         System.out.println("Titulaire du compte : " + compte.getTitulaire());
